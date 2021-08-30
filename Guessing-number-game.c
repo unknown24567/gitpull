@@ -6,6 +6,6 @@ int main()
  printf("\n");
  printf("Enter the number:");
  scanf("%d",&i);
- i==5?printf("You Win");printf("You Lose");
+ i==5?printf("You Win"):printf("You Lose");
 
  }
