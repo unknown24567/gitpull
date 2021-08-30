@@ -6,8 +6,6 @@ int main()
  printf("\n");
  printf("Enter the number:");
  scanf("%d",&i);
- if(i==5)
- printf("You Win");
- else
- printf("You Loss");
+ i==5?printf("You Win");printf("You Lose");
+
  }
